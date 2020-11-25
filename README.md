@@ -1,5 +1,5 @@
 # yelp_data_engineering, still looking for a cool name!
-
+quick intro here
 
 # Introduction & Goals
 The primary objective of this project is to build a recommendation engine which can be useful for platform visitors (service demanders, any better term?) and business owners (service suppliers). The visitors can benefit from such recommendation system by learning about the potential services to select while the business owners can get an insight what yelp may suggest the visitors as their potential competitors.  

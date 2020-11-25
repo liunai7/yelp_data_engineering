@@ -43,7 +43,7 @@ The primary objective of this project is to build a recommendation engine which 
 # The Data Set
 
 
-![title](image/yelp.png)
+![yelp](image/yelp.png)
 
 
 

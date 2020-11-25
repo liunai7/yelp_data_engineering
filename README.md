@@ -43,8 +43,7 @@ The primary objective of this project is to build a recommendation engine which 
 # The Data Set
 
 
-![alt text](https://github.com/liunai7/yelp_data_engineering/blob/main/yelp.png?raw=true)
-
+![Alt text](image/yelp.png?raw=true "Title")
 
 
 

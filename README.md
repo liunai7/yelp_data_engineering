@@ -41,14 +41,13 @@ The primary objective of this project is to build a recommendation engine which 
 
 
 # The Data Set
+The dataset I utilized in this project comes from https://www.yelp.com/dataset which provides a subsample of yelp data for educational purposes. 
+This dataset is in json format and includes different json files to cover an overview of businesses, checkin information for businesses, customer reviews, tips, and visitors reviews.
 
 
-![Alt text](image/yelp.png?raw=true "Title")
 
 
 
-The dataset I used in this project 
-- Explain the data set
 - Why did you choose it?
 - What do you like about it?
 - What is problematic?

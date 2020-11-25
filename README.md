@@ -42,7 +42,7 @@ The dataset I utilized in this project comes from https://www.yelp.com/dataset w
 This dataset consists of different json files to cover an overview of businesses, checkin information for businesses, customer reviews, tips, and visitors reviews. To get insights from different json pieces, I merged the datasets and used it as the final dataset.<br>
 I chose yelp dataset because analyzing such great example of user-behavior dataset can generate valuable analytical-based solution for business problems. This dataset includes timestamped information which can be useful for visualization purposes (which I used to do CERTAIN VISUALIZATION FOR UI). The categorical features in the dataset ease data filtering task.
 ### The potential roadblocks in this dataset are... 
-### What do you want to do with it?
+### What do you want to do with it? Using Collaborative Filtering (probably computationally expensive, i.e. what products similar users liked) or Content-based filtering (i.e. previous likes of a user, and keywords)
 
 
 

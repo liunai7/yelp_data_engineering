@@ -5,13 +5,13 @@
 Add a catchy title to your project. Something that people immediately know what you are doing
 
 # Introduction & Goals
-The main objective of this yelp project is to build a recommendation engine which suggests businesses to yelp users, i.e. visitors (service demanders, any better term?) and business owners (service suppliers). The visitors can benefit from such recommendation system by learning about the potential services to use and the business owners can also get an insight what yelp suggests the visitors as their potential competitors.  
+The primary objective of this project is to build a recommendation engine which can be useful for platform visitors (service demanders, any better term?) and business owners (service suppliers). The visitors can benefit from such recommendation system by learning about the potential services to select while the business owners can get an insight what yelp may suggest the visitors as their potential competitors.  
 
 
 
 
 
-- Introduce your project to the reader
+
 - Orient this section on the Table of contents
 - Write this like an executive summary
   - With what data are you working

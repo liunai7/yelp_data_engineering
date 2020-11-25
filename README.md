@@ -41,6 +41,10 @@ The primary objective of this project is to build a recommendation engine which 
 
 
 # The Data Set
+
+![A test image](/Users/liunaissagholian/Desktop/data_engineering/Screen\ Shot\ 2020-11-25\ at\ 11.08.30\ AM.png)
+
+The dataset I used in this project 
 - Explain the data set
 - Why did you choose it?
 - What do you like about it?

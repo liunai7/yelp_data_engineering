@@ -41,9 +41,8 @@ The primary objective of this project is to build a recommendation engine which 
 
 
 # The Data Set
-<img src="/Users/liunaissagholian/Desktop/data_engineering/Screen\ Shot\ 2020-11-25\ at\ 11.08.30\ AM.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+
+![alt text](yelp.png)
 
 
 

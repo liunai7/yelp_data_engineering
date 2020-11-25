@@ -41,7 +41,8 @@ The primary objective of this project is to build a recommendation engine which 
 
 
 # The Data Set
-The dataset I utilized in this project comes from https://www.yelp.com/dataset which provides a subsample of yelp data for educational purposes. This dataset consists of different json files to cover an overview of businesses, checkin information for businesses, customer reviews, tips, and visitors reviews. To get insights from different json pieces, I merged the datasets and used it as the final dataset.<br>
+The dataset I utilized in this project comes from https://www.yelp.com/dataset which provides a subsample of yelp data for educational purposes. <br>
+This dataset consists of different json files to cover an overview of businesses, checkin information for businesses, customer reviews, tips, and visitors reviews. To get insights from different json pieces, I merged the datasets and used it as the final dataset.<br>
 I chose yelp dataset because analyzing such great example of user-behavior dataset can generate valuable analytical-based solution for business problems. This dataset includes timestamped information which can be useful for visualization purposes (which I used to do CERTAIN VISUALIZATION FOR UI). The categorical features in the dataset ease data filtering task.
 ### The potential roadblocks in this dataset are... 
 ### What do you want to do with it?

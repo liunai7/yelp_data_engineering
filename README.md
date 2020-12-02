@@ -1,5 +1,5 @@
-# Tell me Yelp, where should I eat out?!(still looking for a cool name!)
-Yelp is an online platform which provides information about businesses. Here, I build a recommendation system to predict a list of ceratin businesses, i.e., restaurants for users to dine out. This recommendation is based on QUICK EXPLANATION OF RECSYS ALGO!.
+# Tell me yelp, where should I eat out?!(still looking for a cool name!)
+yelp is an online platform which provides information about businesses. Here, I build a recommendation system to predict a list of ceratin businesses, i.e., restaurants for users to dine out. This recommendation is based on QUICK EXPLANATION OF RECSYS ALGO!.
 
 
 # Introduction & Goals

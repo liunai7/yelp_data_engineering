@@ -1,6 +1,6 @@
 # Tell me Yelp, where should I eat out?!(still looking for a cool name!)
 Yelp is an online platform which provides information about businesses. Here, I build a recommendation system to predict a list of ceratin businesses, i.e., restaurants for users to dine out. This recommendation is based on QUICK EXPLANATION OF RECSYS ALGO!.
-quick intro here
+
 
 # Introduction & Goals
 The primary objective of this project is to build a recommendation engine which can be useful for platform visitors (service demanders, any better term?) and business owners (service suppliers). The visitors can benefit from such recommendation system by learning about the potential services to select while the business owners can get an insight what yelp may suggest the visitors as their potential competitors.  

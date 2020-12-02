@@ -3,37 +3,9 @@ yelp is an online platform which provides information about businesses. Here, I 
 
 
 # Introduction & Goals
-The primary objective of this project is to build a recommendation engine which can be useful for platform visitors (service demanders, any better term?) and business owners (service suppliers). The visitors can benefit from such recommendation system by learning about the potential services to select while the business owners can get an insight what yelp may suggest the visitors as their potential competitors.  
-
-# random:<br>
-To avoid cold start maybe: setting a only users with at leas 5 interactions? or just keep them<br>
-collabrative : recommendations of existing users.<br>
-
-content-base: location, type, name, hours?!<br>
-Expects item information.
-Item information should be in a text document.<br>
-
-Non-probabilistic algorithm:
-User-based nearest neighbor... computationally expensive/ trade-off: better performance by use reducing dim but quality of rec system is sacrifizing
-Item-based nearest neighbor.
-Reducing dimensionality.
-
-* Motivation for Baseline
-Imputation of missing values with baseline values.
+The primary objective of this project is to build a recommendation engine which can be useful for platform users (service demanders) and business owners (service suppliers). The visitors can benefit from such recommendation system by learning about the potential services to select while the business owners can get an insight what yelp may suggest the visitors as their potential competitors.  
 
 
-Probabilistic algorithm:
-Bayesian-network model.
-EM algorithm.
-
-
-Matrix factorization is a class of collaborative filtering algorithms used in recommender systems. Matrix factorization algorithms work by decomposing the user-item interaction matrix into the product of two lower dimensionality rectangular matrices.
-
-
-good sources:
-https://medium.com/towards-artificial-intelligence/recommendation-system-in-depth-tutorial-with-python-for-netflix-using-collaborative-filtering-533ff8a0e444
-
-####
 - Orient this section on the Table of contents
 - Write this like an executive summary
   - With what data are you working

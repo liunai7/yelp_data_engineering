@@ -35,9 +35,10 @@ The primary objective of this project is to build a recommendation engine which 
 
 
 # The Dataset
-The dataset I utilized in this project comes from https://www.yelp.com/dataset which provides a subsample of yelp data for educational purposes. I have accessed to the Feburary, 2020 updated version of the dataset on the yelp platform. <br>
-This dataset consists of different json files to cover an overview of businesses, checkin information for businesses, customer reviews, tips, and visitors reviews. To get insights from different json pieces, I merged the datasets and used it as the final dataset.<br>
-I chose yelp dataset because analyzing such great example of user-behavior dataset can generate valuable analytical-based solution for business problems. This dataset includes timestamped information which can be useful for visualization purposes (which I used to do CERTAIN VISUALIZATION FOR UI). The categorical features in the dataset ease data filtering task.
+The dataset I utilized in this project comes from https://www.yelp.com/dataset which provides a subsample of yelp data for educational purposes. I have accessed to the February, 2020 version of the dataset on the yelp platform. <br>
+The data geographically covers some states of United States and some providences of Canada. The dataset includes different types of businesses from restaurants to beauty salons. In this project, my focus is on *restaurants* which consists one-third of the businesses.<br>  
+This dataset consists of different json files to cover an overview of businesses, checkin information for businesses, customer reviews, tips, and user reviews. To get insights from different json pieces, I merged the datasets and used it as the final dataset.<br>
+I chose yelp dataset because analyzing user-behavior dataset can generate valuable analytical-based solution for business problems. **work in progressThis dataset includes timestamped information which can be useful for visualization purposes (which I used to do CERTAIN VISUALIZATION FOR UI). The categorical features in the dataset ease data filtering task.**
 ### The potential roadblocks in this dataset are... 
 ### What do you want to do with it? Using Collaborative Filtering (probably computationally expensive, i.e. what products similar users liked) or Content-based filtering (i.e. previous likes of a user, and keywords)
 

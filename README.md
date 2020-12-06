@@ -44,17 +44,20 @@ This dataset consists of different json files to cover an overview of businesses
 
 
 
-# Used Tools
+# Used Tools in AWS as Platform
+- Liuna: my client: **main client is python** so main after merging the data in pandas, will change it to json
 - Explain which tools do you use and why
 - How do they work (don't go too deep into details, but add links)
 - Why did you choose them
 - How did you set them up
 
-## Connect
-## Buffer
-## Processing
+## Connect: API gatwaway in AWS
+## Buffer: Kinesis
+## Processing: batch 
+* batch: 1. scheduler (CouldWatch) or Apache Airflow/ 2. processing (lamda) / 3 .source / 4. processing / 5. destination
 ## Storage
 ## Visualization
+
 
 # Pipelines
 - Explain the pipelines for processing that you are building

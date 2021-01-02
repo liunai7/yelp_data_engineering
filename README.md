@@ -9,7 +9,7 @@ The primary objective of this project is to build a recommendation engine which 
 - Orient this section on the Table of contents
 - Write this like an executive summary
   - With what data are you working
-  - What tools are you using
+  - What tools are you using: Lambda, Kinesis, API Gateway
   - What are you doing with these tools
   - Once you are finished add the conclusion here as well
 
@@ -26,6 +26,7 @@ The primary objective of this project is to build a recommendation engine which 
   - [Stream Processing](#stream-processing)
     - [Storing Data Stream](#storing-data-stream)
     - [Processing Data Stream](#processing-data-stream)
+    - [Storage Streaming](#storage-streaming)
   - [Batch Processing](#batch-processing)
   - [Visualizations](#visualizations)
 - [Demo](#demo)

@@ -27,7 +27,6 @@ The primary objective of this project is to build a recommendation engine which 
     - [Storing Data Stream](#storing-data-stream)
     - [Processing Data Stream](#processing-data-stream)
     - [Storage Streaming](#storage-streaming)
-    hhhi
   - [Batch Processing](#batch-processing)
   - [Visualizations](#visualizations)
 - [Demo](#demo)
@@ -58,6 +57,20 @@ This dataset consists of different json files to cover an overview of businesses
 ## Processing: batch 
 * batch: 1. scheduler (CouldWatch) or Apache Airflow/ 2. processing (lamda) / 3 .source / 4. processing / 5. destination
 ## Storage
+**Storage Stream** pipeline includes all the tasks related to five json files, as my clients, to perform data storage.
+Detail:
+Step1: I need to connect to API Gateway and need to create a lambda function. So, on AWS Lambda, I create my lambda function and call it "writekinesis". It is useful to have execution role so I create a "new role" it while creating the lambda function. This executation role gives rights to the lambda fucntion to write kinesis. (Some other options: set the memory, set retry attemps).<br>
+Step2: For Rest API, I use post method which in my python code(hyperlink here) I leveraged requests python library to access. Basically, with post, I send the data to teh API. Here are the steps: In Amazon API Gateway, 1.Create API, select REST API, name the API "helloworld".
+2. Create resources and methods(Actions): First create a resources by giving the resource a name "hello", and on the resource create methods which can be post, get, delete, etc. I craeted get, post, put methods, but for now only using post method to upload the tables. For each method, i configured them to the lambda fucntion. 
+For integration type, i use lambda fucntion, pick the region, and type the "writekinesis" as the name of Lambda Function. After configuration, I modified the post method further, by Mapping Templates and on Content-Type use aaplication/json which is also used in our python codes as headers = {'Content-type':'application/json', 'Accept':'application/json'}. In addition, for Generate Template, I chose Method Request Passthrough.<br>
+Step3: Amazon Kinesis: create a data stream, specify number of shards.<br>
+Step4: IAM (Identity and Access Management) for API which the goal is to make sure lambda function can write in Kinesis.
+AWS Lambda: In the fucntion we created WriteKinesis, in configuration, the basic settings we need to set up the correct execution role which is the last line. So here there are two options to attch policies: 1. setting a new policy, 2. setting already existed default policy.
+I pciked AmazonKinesisFullAccess as the default policy, and MyKinesisWriteAPIdata as set new policy. For MyKinesisWriteAPIdata, I pick Kinesis as Service, and PutRecord, and PutRecords for Actions. MAY ADD MORE LATER <br>
+Step5: I prepared a python scrip (hyperlink) for the lambda function to post the json files. 
+
+
+
 ## Visualization
 
 

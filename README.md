@@ -3,8 +3,8 @@ yelp is an online platform which provides information about businesses. Here, I 
 
 
 # Introduction & Goals
-The primary objective of this project is to build a recommendation engine which can be useful for platform users (service demanders) and business owners (service suppliers). The visitors can benefit from such recommendation system by learning about the potential services to select while the business owners can get an insight what yelp may suggest the visitors as their potential competitors.  
-
+The primary objective of this project is to build a recommendation engine which can be useful for platform users (service demanders) and business owners (service suppliers). The visitors can benefit from such recommendation system by learning about the potential services to select while the business owners can get an insight what yelp may suggest the visitors as their potential competitors.  <br>
+general advice: assign roles and policies for each step
 
 - Orient this section on the Table of contents
 - Write this like an executive summary
@@ -72,7 +72,21 @@ Step5: I prepared a python scrip (hyperlink) for the lambda function to post the
 What does writeKinesis include? explaing how the psot method sends the data to API (hyperlink) via lambda function to kinesis<br>
 
 Step6: starting with a small sample, i.e. a few lines of real data, check the python code (hyperlink the API URL code). In the code I need to specify the url. The url address comes from creating a stage in Amazon API Gateway and the address is shown on top of page as Invoke URL which accomadates sending data to the API.<br>
-Step7: To test the pipeline, we run the python script, we can check the cloudwatch and also kinesis check monitoring "incoming data" and "put record" 
+Step7: To test the pipeline, we run the python script, we can check the cloudwatch and also kinesis check monitoring "incoming data" and "put record" <br>
+
+docker: fargate: do i need this?! 
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_CLI_installation.html
+also, https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html (not sure i did everything)
+
+Getting Started with Amazon Elastic Container Service (Amazon ECS) using Fargate
+
+
+
+# Stream To Raw Storage S3 Pipeline
+use s3 as data lake or storage
+Step1: create a bucket: I created a bucket called yelp-project-bucket, and kept all default opions for the setting. Eventually, all my 5 json files will be streamed in yelp-project-bucket.<br>
+Step2: Config IAM:create a role for aws service called Lambda-Kinesis-S3-Writer and add default policy of AmazonS3FullAccess, AWSLambdaBasicExecutionRole
+Step3: lambda function for yelp-project-bucket: create a function, use blueprint kinesis-process-record-python: use existing role Lambda-Kinesis-S3-Writer, choose kineses trigger as kinesis stream of APIData
 
 
 ## Visualization

@@ -68,7 +68,11 @@ Step4: IAM (Identity and Access Management) for API which the goal is to make su
 AWS Lambda: In the fucntion we created WriteKinesis, in configuration, the basic settings we need to set up the correct execution role which is the last line. So here there are two options to attch policies: 1. setting a new policy, 2. setting already existed default policy.
 I pciked AmazonKinesisFullAccess as the default policy, and MyKinesisWriteAPIdata as set new policy. For MyKinesisWriteAPIdata, I pick Kinesis as Service, and PutRecord, and PutRecords for Actions. MAY ADD MORE LATER <br>
 Step5: I prepared a python scrip (hyperlink) for the lambda function to post the json files. 
+* go to cloudwatch to see the logs
+What does writeKinesis include? explaing how the psot method sends the data to API (hyperlink) via lambda function to kinesis<br>
 
+Step6: starting with a small sample, i.e. a few lines of real data, check the python code (hyperlink the API URL code). In the code I need to specify the url. The url address comes from creating a stage in Amazon API Gateway and the address is shown on top of page as Invoke URL which accomadates sending data to the API.<br>
+Step7: To test the pipeline, we run the python script, we can check the cloudwatch and also kinesis check monitoring "incoming data" and "put record" 
 
 
 ## Visualization
